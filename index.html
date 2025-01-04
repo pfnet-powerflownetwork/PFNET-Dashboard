@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFNET Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>PFNET Dashboard</h1>
+    </header>
+    <main>
+        <section id="network-status">
+            <h2>Network Status</h2>
+            <div id="status-data"></div>
+        </section>
+        <section id="task-manager">
+            <h2>Task Manager</h2>
+            <table id="tasks-table">
+                <thead>
+                    <tr>
+                        <th>Task ID</th>
+                        <th>Status</th>
+                        <th>Assigned Node</th>
+                        <th>Progress</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>
